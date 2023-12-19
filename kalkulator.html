@@ -12,11 +12,43 @@
 <body>
 <script src="JavaScrpit/kalkulator.js"></script>
 <h1>Mértékegységek átváltása</h1>
+<div class="flex-container">
+  <div>
 <h2>Font ➞ kilogramm</h2>
-
+<p>
 <input id="inputFont" type="number" placeholder="Font" oninput="fontKilogramKonverter(this.value)" onchange="fontKilogramKonverter(this.value)">
 kilogramm: <span id="outputKilogramm"></span>
+</p>
+  
 </body>
+<p>
+</div>
+
+
+
+<div>
+
+<h2>Kilogramm➞ Font</h2> 
+</p>
+</div>
+<input id="inputKilogramm" type="number" placeholder="kilogramm"
+oninput="kilogrammFontKonverter(this.value)" onchange="kilogrammFontKonverter(this.value)">
+
+Font : <span id="outputFont"></span>
+
+</div>
+
+
+
+
+
+
+
 
 
 </html>
+<footer>
+  <hr />
+  &copy; Czecze Zalán
+</footer>
+</body>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="hu-HU">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <link href="style/stylesheet.css"  type="text/css" rel="stylesheet">
+    
+    <title>czeczezalan weboldala</title>
+</head>
+
+<body>
+    <h1>czeczezalan weboldala</h1>
+    <div class="flex-container">
+    <div>
+    <h2>Rólam</h2>
+    </div>
+
+<div>
+    <h2>Kedvenc receptjeim</h2>
+</div>
+<div>
+    
+    <h2>Hasznos holmik</h2>
+</div>
+
+    <footer>
+        <hr />
+        &copy; Czecze Zalán
+    </footer>
+</body>
